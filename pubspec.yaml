@@ -1,0 +1,49 @@
+name: flutter_se_project
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  bloc: ^0.15.0
+  flutter_bloc: ^0.21.0
+  flutter_spinkit: ^4.0.0
+  http: ^0.12.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: SukhumvitSet
+      fonts:
+        - asset: fonts/SukhumvitSet-Text.ttf
+          weight: 400
+        - asset: fonts/SukhumvitSet-Bold.ttf
+          weight: 700
+        - asset: fonts/SukhumvitSet-Light.ttf
+          weight: 300
+        - asset: fonts/SukhumvitSet-Medium.ttf
+          weight: 500
+        - asset: fonts/SukhumvitSet-SemiBold.ttf
+          weight: 600
+    - family: THSarabunNew
+      fonts:
+        - asset: fonts/THSarabunNew Bold.ttf
+          weight: 700
+        - asset: fonts/THSarabunNew BoldItalic.ttf
+          weight: 700
+        - asset: fonts/THSarabunNew Italic.ttf
+          weight: 400
+        - asset: fonts/THSarabunNew.ttf
+          weight: 400
