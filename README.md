@@ -1,4 +1,4 @@
-# flutter_se_project
+# Flutter_BLoC_Training
 
 A new Flutter application.
 
